@@ -80,6 +80,7 @@ namespace ToDoList.Tests
       //Assert
       CollectionAssert.AreEqual(newList, result);
     }
+
     [TestMethod]
     public void GetId_ITemsInstantiateWithAnIdAndGetterReturns_Int()
     {
@@ -91,6 +92,7 @@ namespace ToDoList.Tests
       //Assert
       Assert.AreEqual(1, result);
     }
+    
     [TestMethod]
     public void Find_ReturnsCorrectItem_Item()
     {
